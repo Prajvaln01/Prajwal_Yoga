@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prajwal Yoga Consulting | Personalized Yoga for Mind & Body</title>
+  <meta name="description" content="Personalized yoga consulting, 1:1 sessions, workshops, and corporate wellness. Book a free discovery call with Prajwal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            leaf: {
+              50: '#f5fff8',
+              100: '#e7f7ee',
+              200: '#cfeedd',
+              300: '#b2e0c5',
+              400: '#86cda3',
+              500: '#5fba86',
+              600: '#3c9d69',
+              700: '#2e7a52',
+              800: '#255f42',
+              900: '#1e4d36'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Playfair Display', 'serif']
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(0,0,0,0.08)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.75); }
+    .container-pad { padding-left: 1rem; padding-right: 1rem; }
+  </style>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Prajwal Yoga Consulting" />
+  <meta property="og:description" content="Personalized yoga consulting, classes, and corporate wellness programs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518617840859-acd542e13b8f?q=80&w=1200&auto=format&fit=crop" />
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧘</text></svg>">
+  
+  <!-- JSON-LD Schema: Person offering Health & Wellness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prajwal Narad",
+    "jobTitle": "Yoga Consultant",
+    "image": "https://images.unsplash.com/photo-1518617840859-acd542e13b8f?q=80&w=800&auto=format&fit=crop",
+    "url": "https://your-domain.com",
+    "sameAs": [
+      "https://www.instagram.com/yourhandle",
+      "https://www.youtube.com/@yourchannel",
+      "https://www.linkedin.com/in/yourprofile"
+    ],
+    "makesOffer": {
+      "@type": "Offer",
+      "name": "1:1 Yoga Consulting",
+      "price": "1499",
+      "priceCurrency": "INR"
+    }
+  }
+  </script>
+</head>
+<body class="bg-leaf-50 text-gray-800">
+  <!-- Announcement Bar -->
+  <div class="bg-leaf-700 text-white text-sm">
+    <div class="max-w-6xl mx-auto flex items-center justify-between py-2 container-pad">
+      <p>✨ New: Free 15‑minute discovery call for first‑time clients</p>
+      <a href="#booking" class="underline hover:no-underline">Book now</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto flex items-center justify-between py-5 container-pad">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full bg-leaf-600 text-white grid place-items-center text-xl">🧘</div>
+      <div>
+        <h1 class="font-display text-2xl leading-none">Prajwal Yoga Consulting</h1>
+        <p class="text-sm text-gray-500">Balance • Breath • Better You</p>
+      </div>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="#services" class="hover:text-leaf-700">Services</a>
+      <a href="#about" class="hover:text-leaf-700">About</a>
+      <a href="#packages" class="hover:text-leaf-700">Packages</a>
+      <a href="#testimonials" class="hover:text-leaf-700">Testimonials</a>
+      <a href="#faq" class="hover:text-leaf-700">FAQ</a>
+      <a href="#contact" class="hover:text-leaf-700">Contact</a>
+    </nav>
+    <div class="flex gap-3">
+      <a href="#booking" class="hidden sm:inline-block bg-leaf-700 text-white px-4 py-2 rounded-xl shadow-soft hover:bg-leaf-800">Book Session</a>
+      <a class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 hover:bg-white" href="https://wa.me/919999999999" target="_blank" rel="noopener">
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <img src="https://images.unsplash.com/photo-1518609374819-8974fd0879c8?q=80&w=2000&auto=format&fit=crop" alt="Yoga practice" class="w-full h-[60vh] object-cover object-center" />
+    <div class="absolute inset-0 bg-gradient-to-t from-leaf-900/70 to-transparent"></div>
+    <div class="absolute inset-0 flex items-end">
+      <div class="max-w-6xl mx-auto w-full container-pad pb-10">
+        <div class="glass rounded-2xl p-6 md:p-10 max-w-2xl shadow-soft">
+          <h2 class="font-display text-3xl md:text-5xl text-leaf-900">Personalized Yoga Consulting</h2>
+          <p class="mt-3 text-gray-700 md:text-lg">1:1 guidance, tailored programs, and mindful routines to reduce stress, improve posture, and build sustainable strength.</p>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="#booking" class="bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Book Free Call</a>
+            <a href="#packages" class="px-5 py-3 rounded-xl border border-gray-300 hover:bg-white">See Packages</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust badges -->
+  <section class="max-w-6xl mx-auto container-pad py-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-600">
+    <div class="flex items-center gap-2 bg-white rounded-xl p-3 shadow-soft"><span>✅</span>Certified Instructor</div>
+    <div class="flex items-center gap-2 bg-white rounded-xl p-3 shadow-soft"><span>🩺</span>Posture & Pain Relief</div>
+    <div class="flex items-center gap-2 bg-white rounded-xl p-3 shadow-soft"><span>🏢</span>Corporate Wellness</div>
+    <div class="flex items-center gap-2 bg-white rounded-xl p-3 shadow-soft"><span>🌐</span>Online & In‑person</div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="max-w-6xl mx-auto container-pad py-16">
+    <h3 class="font-display text-3xl">Services</h3>
+    <p class="text-gray-600 mt-2">Choose a path that suits your needs. Every plan starts with a free assessment.</p>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <h4 class="font-semibold text-lg">1:1 Consulting</h4>
+        <p class="mt-2 text-gray-600">Personalized evaluation, mobility screening, breathwork, and a tailored routine with follow‑ups.</p>
+        <ul class="mt-3 text-sm list-disc pl-5 text-gray-600">
+          <li>45–60 min live session</li>
+          <li>Custom plan PDF & video demos</li>
+          <li>Chat support for 2 weeks</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <h4 class="font-semibold text-lg">Therapeutic Yoga</h4>
+        <p class="mt-2 text-gray-600">Targeted protocols for back pain, stress, PCOS, weight management, or posture correction.</p>
+        <ul class="mt-3 text-sm list-disc pl-5 text-gray-600">
+          <li>Evidence‑informed routines</li>
+          <li>Weekly progression</li>
+          <li>Lifestyle coaching</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-soft">
+        <h4 class="font-semibold text-lg">Corporate Wellness</h4>
+        <p class="mt-2 text-gray-600">On‑site/virtual sessions for teams: mobility breaks, breathwork, and stress‑management workshops.</p>
+        <ul class="mt-3 text-sm list-disc pl-5 text-gray-600">
+          <li>30–60 min formats</li>
+          <li>Slide deck & handouts</li>
+          <li>Monthly plans available</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages / Pricing -->
+  <section id="packages" class="bg-white">
+    <div class="max-w-6xl mx-auto container-pad py-16">
+      <h3 class="font-display text-3xl">Packages</h3>
+      <p class="text-gray-600 mt-2">Simple, transparent pricing in INR. GST as applicable.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border bg-white p-6 shadow-soft">
+          <h4 class="font-semibold text-lg">Starter (1 Session)</h4>
+          <p class="mt-1 text-gray-600">Great for an expert check‑in.</p>
+          <div class="mt-3 text-3xl font-display">₹999</div>
+          <ul class="mt-4 text-sm list-disc pl-5 text-gray-600">
+            <li>60‑min 1:1 session</li>
+            <li>Quick posture audit</li>
+            <li>Basic routine PDF</li>
+          </ul>
+          <a href="#booking" class="mt-6 inline-block w-full text-center bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Book Now</a>
+        </div>
+        <div class="rounded-2xl border-2 border-leaf-600 bg-white p-6 shadow-soft relative">
+          <span class="absolute -top-3 right-4 bg-leaf-700 text-white text-xs px-2 py-1 rounded-md">Popular</span>
+          <h4 class="font-semibold text-lg">Guided (4 Weeks)</h4>
+          <p class="mt-1 text-gray-600">Best for habit‑building and progress.</p>
+          <div class="mt-3 text-3xl font-display">₹3,499</div>
+          <ul class="mt-4 text-sm list-disc pl-5 text-gray-600">
+            <li>Weekly live sessions</li>
+            <li>Progress tracking</li>
+            <li>Chat support</li>
+          </ul>
+          <a href="#booking" class="mt-6 inline-block w-full text-center bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Get Started</a>
+        </div>
+        <div class="rounded-2xl border bg-white p-6 shadow-soft">
+          <h4 class="font-semibold text-lg">Transform (12 Weeks)</h4>
+          <p class="mt-1 text-gray-600">For deep, sustainable change.</p>
+          <div class="mt-3 text-3xl font-display">₹9,499</div>
+          <ul class="mt-4 text-sm list-disc pl-5 text-gray-600">
+            <li>2× sessions / week</li>
+            <li>Nutrition & habit coaching</li>
+            <li>Video library access</li>
+          </ul>
+          <a href="#booking" class="mt-6 inline-block w-full text-center bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Apply</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto container-pad py-16 grid md:grid-cols-2 gap-8 items-center">
+    <img src="https://images.unsplash.com/photo-1599447421410-8c6c7a8aadd4?q=80&w=1200&auto=format&fit=crop" alt="Instructor" class="rounded-2xl shadow-soft w-full h-80 object-cover" />
+    <div>
+      <h3 class="font-display text-3xl">Meet Prajwal</h3>
+      <p class="mt-3 text-gray-700 leading-relaxed">I help busy students and professionals build sustainable yoga habits through simple movement, breathwork, and mindful routines. Sessions are personalized for your body type, schedule, and goals—so you enjoy the practice and see measurable progress.</p>
+      <ul class="mt-4 text-gray-700 list-disc pl-5">
+        <li>RYT‑200 Certified (add your school)</li>
+        <li>Special interest: posture, stress relief, mobility</li>
+        <li>Delivered 100+ sessions online & in‑person</li>
+      </ul>
+      <div class="mt-6 flex gap-3">
+        <a href="#booking" class="bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Book a Free Call</a>
+        <a href="#contact" class="px-5 py-3 rounded-xl border border-gray-300 hover:bg-white">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-white">
+    <div class="max-w-6xl mx-auto container-pad py-16">
+      <h3 class="font-display text-3xl">Client Stories</h3>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <blockquote class="bg-white rounded-2xl p-6 shadow-soft">
+          <p class="italic">“My back pain reduced in 3 weeks. The short daily routine fits my workday.”</p>
+          <footer class="mt-4 text-sm text-gray-600">— Ananya, Software Engineer</footer>
+        </blockquote>
+        <blockquote class="bg-white rounded-2xl p-6 shadow-soft">
+          <p class="italic">“Calm, clear guidance. I finally enjoy yoga without feeling overwhelmed.”</p>
+          <footer class="mt-4 text-sm text-gray-600">— Rohan, MBA Student</footer>
+        </blockquote>
+        <blockquote class="bg-white rounded-2xl p-6 shadow-soft">
+          <p class="italic">“Our team loved the 30‑min corporate sessions. Noticeable energy boost!”</p>
+          <footer class="mt-4 text-sm text-gray-600">— HR Lead, Pune</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="max-w-6xl mx-auto container-pad py-16">
+    <h3 class="font-display text-3xl">FAQ</h3>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <details class="bg-white rounded-2xl p-5 shadow-soft">
+        <summary class="font-semibold cursor-pointer">Do I need equipment?</summary>
+        <p class="mt-3 text-gray-700">Just a mat and comfortable clothes. Blocks/strap are optional; we adapt to whatever you have.</p>
+      </details>
+      <details class="bg-white rounded-2xl p-5 shadow-soft">
+        <summary class="font-semibold cursor-pointer">Are sessions online or in‑person?</summary>
+        <p class="mt-3 text-gray-700">Both. We use Zoom/Google Meet for online; in‑person available in your city on request.</p>
+      </details>
+      <details class="bg-white rounded-2xl p-5 shadow-soft">
+        <summary class="font-semibold cursor-pointer">Can beginners join?</summary>
+        <p class="mt-3 text-gray-700">Absolutely. We start with breath and basic mobility, building strength gradually.</p>
+      </details>
+      <details class="bg-white rounded-2xl p-5 shadow-soft">
+        <summary class="font-semibold cursor-pointer">Refunds & rescheduling?</summary>
+        <p class="mt-3 text-gray-700">You can reschedule up to 12 hours before. Refunds for unused sessions in multi‑week plans.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Booking CTA -->
+  <section id="booking" class="bg-leaf-700 text-white">
+    <div class="max-w-6xl mx-auto container-pad py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="font-display text-3xl">Book a Free Discovery Call</h3>
+        <p class="mt-3 text-leaf-50">Tell me your goals and schedule. I’ll suggest the right plan and a simple routine to start.</p>
+        <ul class="mt-4 list-disc pl-5 text-leaf-50/90">
+          <li>15‑minute call on Zoom/Google Meet</li>
+          <li>No pressure to buy</li>
+          <li>Get a starter routine PDF</li>
+        </ul>
+      </div>
+      <div class="bg-white text-gray-800 rounded-2xl p-6 shadow-soft">
+        <label class="block text-sm font-medium">Pick a date & time</label>
+        <div class="mt-2">
+          <!-- Calendly embed placeholder: replace href with your Calendly link -->
+          <iframe title="Calendly" src="https://calendly.com/" class="w-full h-72 rounded-xl border"></iframe>
+        </div>
+        <button onclick="alert('Connect Razorpay or Stripe to accept payments.')" class="mt-4 w-full bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Pay & Confirm (Demo)</button>
+        <p class="mt-3 text-xs text-gray-500">To enable payments, connect Razorpay/Stripe and replace this button with their checkout script.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog preview -->
+  <section class="max-w-6xl mx-auto container-pad py-16">
+    <h3 class="font-display text-3xl">Latest from the Blog</h3>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <article class="bg-white rounded-2xl overflow-hidden shadow-soft">
+        <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Morning yoga"/>
+        <div class="p-5">
+          <h4 class="font-semibold">5‑Pose Morning Flow</h4>
+          <p class="text-gray-600 text-sm mt-1">A 10‑minute sequence to wake up your spine and breath.</p>
+          <a href="#" class="inline-block mt-3 text-leaf-700 hover:underline">Read more →</a>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl overflow-hidden shadow-soft">
+        <img src="https://images.unsplash.com/photo-1599447421410-8c6c7a8aadd4?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Breathing"/>
+        <div class="p-5">
+          <h4 class="font-semibold">Breathwork for Focus</h4>
+          <p class="text-gray-600 text-sm mt-1">Try box breathing to reduce stress before classes or meetings.</p>
+          <a href="#" class="inline-block mt-3 text-leaf-700 hover:underline">Read more →</a>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl overflow-hidden shadow-soft">
+        <img src="https://images.unsplash.com/photo-1517637633369-e4cc4569b3fb?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" alt="Desk stretch"/>
+        <div class="p-5">
+          <h4 class="font-semibold">Desk Stretches for Back Relief</h4>
+          <p class="text-gray-600 text-sm mt-1">Three micro‑breaks to save your back during long study/work days.</p>
+          <a href="#" class="inline-block mt-3 text-leaf-700 hover:underline">Read more →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white">
+    <div class="max-w-6xl mx-auto container-pad py-16 grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h3 class="font-display text-3xl">Contact</h3>
+        <p class="mt-2 text-gray-600">Prefer WhatsApp? Message me at <a class="text-leaf-700 underline" href="https://wa.me/919999999999" target="_blank">+91 99999 99999</a></p>
+        <form class="mt-6 bg-leaf-50 rounded-2xl p-6 grid gap-4" onsubmit="event.preventDefault(); alert('Form demo — connect to your email service.');">
+          <div>
+            <label class="text-sm">Name</label>
+            <input class="mt-1 w-full border rounded-xl px-3 py-2" required />
+          </div>
+          <div>
+            <label class="text-sm">Email</label>
+            <input type="email" class="mt-1 w-full border rounded-xl px-3 py-2" required />
+          </div>
+          <div>
+            <label class="text-sm">How can I help?</label>
+            <textarea class="mt-1 w-full border rounded-xl px-3 py-2" rows="4" placeholder="Back pain • Stress • Beginner routine • Corporate session ..."></textarea>
+          </div>
+          <button class="bg-leaf-700 text-white px-5 py-3 rounded-xl hover:bg-leaf-800">Send Message</button>
+          <p class="text-xs text-gray-500">This demo form shows an alert. Connect Formspree, Zoho Forms, or Google Forms to receive messages.</p>
+        </form>
+      </div>
+      <div class="bg-leaf-50 rounded-2xl p-6">
+        <h4 class="font-semibold">Why work with me</h4>
+        <ul class="mt-3 list-disc pl-5 text-gray-700">
+          <li>Gentle, progressive approach for all levels</li>
+          <li>Clear weekly plans and check‑ins</li>
+          <li>Flexible timings for students & professionals</li>
+        </ul>
+        <h4 class="font-semibold mt-6">Social</h4>
+        <ul class="mt-3 flex gap-4 text-leaf-700">
+          <li><a class="hover:underline" href="#">Instagram</a></li>
+          <li><a class="hover:underline" href="#">YouTube</a></li>
+          <li><a class="hover:underline" href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-sm text-gray-600">
+    <div class="max-w-6xl mx-auto container-pad py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> Prajwal Yoga Consulting. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-leaf-700">Privacy</a>
+        <a href="#" class="hover:text-leaf-700">Terms</a>
+        <a href="#" class="hover:text-leaf-700">Refunds</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="Back to top" class="fixed bottom-6 right-6 bg-white rounded-full shadow-soft p-3 border hover:bg-leaf-50 hidden">↑</button>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // back to top
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 600) toTop.classList.remove('hidden');
+      else toTop.classList.add('hidden');
+    });
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+</body>
+</html>
